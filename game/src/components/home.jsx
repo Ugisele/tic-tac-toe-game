@@ -1,12 +1,21 @@
 import React from 'react'
 
-function home() {
+function Home() {
   return (
-    <div>
-        
-
+    <div style={{backgroundColor:'green, flex:1'}}>
+      <div className="shopping-list">
+        <h1>Shopping List for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+      <button>
+        <a href="#">Login</a>
+      </button>
     </div>
   )
 }
 
-export default home
+export default Home
