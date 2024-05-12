@@ -1,9 +1,15 @@
 import React from 'react'
+import { Form } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div style={{backgroundColor:'red', width:'400px', height:'120px'}}>
-        <p>dfjkdbkfdjnkfjk</p>
+    <div style={{backgroundColor:'green', width:'400px', height:'120px'}}>
+
+        <Form>
+            <label>Complete the form</label>
+            <input type='text'/>
+        </Form>
+        <p>Code written bby me</p>
     </div>
   )
 }

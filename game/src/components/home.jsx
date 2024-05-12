@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div style={{backgroundColor:'green, flex:1'}}>
+    <div style={{backgroundColor:'blue'}}>
       <div className="shopping-list">
         <h1>Shopping List for {this.props.name}</h1>
         <ul>
