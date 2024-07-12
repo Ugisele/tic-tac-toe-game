@@ -17,13 +17,13 @@ function App() {
         </a> */}
         <h2>Programming languages</h2>
 
-        <ol>
+        
           <li style={{paddingLeft:-10}}>Java</li>
           <li>Python</li>
           <li>PHP</li>
           <li>Javascript</li>
           
-        </ol>
+      
       </div>
       {/* <h1>Vite + React</h1>
       <div className="card">
