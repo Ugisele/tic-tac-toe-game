@@ -18,7 +18,7 @@ function App() {
         <h2>Programming languages</h2>
 
         <ol>
-          <li>Java</li>
+          <li style={{paddingLeft:-10}}>Java</li>
           <li>Python</li>
           <li>PHP</li>
           <li>Javascript</li>
