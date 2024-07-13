@@ -5,40 +5,76 @@ import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)
-
+//  const background = URL('../assets/bg1.PNG');
   return (
     <>
-      <div>
-        {/* <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a> */}
-        <h2>Programming languages</h2>
-
-        
-          <li style={{paddingLeft:-10}}>Java</li>
-          <li>Python</li>
-          <li>PHP</li>
-          <li>Javascript</li>
+      <div className=" w-full h-full bg-black" >
+        <div style={{position:'fixed', }} className='bg-black w-full'>
+        <ul >
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4  '>Home</a>
+          </li>
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4'>Gerne</a>
+          </li>
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4 '>Country</a>
+          </li>
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4 '>Movies</a>
+          </li>
           
-      
+            <input type="text" className="w-64 h-8 pb-2 pl-2 mt-4 rounded-lg" placeholder="search movies ..." name='search'/>
+        
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4'>Series</a>
+          </li>
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4'>Animations</a>
+          </li>
+          <li className='float-left'>
+            <a href="#" target="_blank" className='text-white block p-4 '>Login/SignUp</a>
+          </li>
+        </ul>
+        </div>
+          <div className='flex justify-center items-center h-screen gap-12'>
+            <div className='w-44 h-12 rounded-lg bg-red-500 border-2'>
+              <p className='text-center pt-1 text-2xl text-white '>Watch Now</p>
+            </div>
+            <div className='w-44 h-12 rounded-lg border-red-600 border-2'>
+              <p className='text-center pt-1 text-2xl text-white '> Watch Later</p>
+            </div>
+          </div>
+        <div>
+          <div>
+          <h2 className='text-2xl text-white'>Avatar: The way of Water</h2>
+          </div>
+          <div>
+          <p> Action</p>
+          <p> Adventure</p>
+          <p> Science fiction</p>
+          <p> 2022</p>
+          <p> 3:12:04</p>
+          <p> 8.5</p>
+          </div>
+          <div>
+          <p className='text-white'>
+            Avatar: The Way of Water is a 2021 science fiction action-adventure
+             film directed by Ethan Scheiderman and written by Bradley Cooper,
+              Derek Hawke, and Christopher Lee. The film stars Jennifer Lawrence, 
+            Ryan Reynolds, and Christopher Nolan.
+          </p>
+          </div>
+          <div>
+            
+          </div>
+          
+          
+        </div>
+
       </div>
-      {/* <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
     </>
+       
   )
 }
-
 export default App
