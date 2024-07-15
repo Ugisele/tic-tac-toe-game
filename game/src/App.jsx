@@ -37,7 +37,8 @@ function App() {
           </li>
         </ul>
         </div>
-          <div className='flex justify-center items-center h-screen gap-12'>
+        <div>
+        <div className='flex justify-center items-center h-screen gap-12'>
             <div className='w-44 h-12 rounded-lg bg-red-500 border-2'>
               <p className='text-center pt-1 text-2xl text-white '>Watch Now</p>
             </div>
@@ -45,12 +46,12 @@ function App() {
               <p className='text-center pt-1 text-2xl text-white '> Watch Later</p>
             </div>
           </div>
-        <div>
+          <div>
           <div>
           <h2 className='text-2xl text-white'>Avatar: The way of Water</h2>
           </div>
           <div>
-          <p> Action</p>
+          <p className='border-2'> Action</p>
           <p> Adventure</p>
           <p> Science fiction</p>
           <p> 2022</p>
@@ -71,6 +72,9 @@ function App() {
           
           
         </div>
+        </div>
+          
+        
 
       </div>
     </>
