@@ -7,6 +7,9 @@ return (
       {colors.map((color, index) => (
         <div key={index} className={`m-2 w-16 h-16 rounded-full bg-${color}`}></div>
       ))}
+      <div>
+        
+      </div>
     </div>
 
   );
