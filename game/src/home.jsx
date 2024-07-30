@@ -77,7 +77,7 @@ function Home() {
             width: "100%",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            height: "100vh",
+            // height: "100vh",
             backgroundImage: background,
           }}
         >
