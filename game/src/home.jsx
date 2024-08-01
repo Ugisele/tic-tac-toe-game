@@ -111,7 +111,7 @@ function Home() {
                 8.5
               </p>
             </div>
-            <div>
+            <div className="pb-6">
               <p className="ml-28 text-white w-96 text-sm">
                 The Way of Water is a 2021 science fiction action-adventure film
                 directed by Ethan Scheiderman and written by Bradley Cooper,
@@ -119,7 +119,6 @@ function Home() {
                 Lawrence, Ryan Reynolds, and Christopher Nolan.
               </p>
             </div>
-            <div></div>
           </div>
         </div>
        

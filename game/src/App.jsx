@@ -1,5 +1,5 @@
 import "./App.css";
-import Trailer from "./component/card";
+import Trailer from "./component/Trailer";
 import Home from "./home";
 import Navigation from "./Navigation";
 
