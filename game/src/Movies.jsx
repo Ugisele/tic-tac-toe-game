@@ -42,7 +42,7 @@ const Movies = () => {
             <h2 className='text-white text-2xl pb-2'>Trending</h2>
         
             </div>
-                <Trending/>
+                {/* <Trending/> */}
             </div>
         </div>
     )
