@@ -38,10 +38,9 @@ const Movies = () => {
             </div>
             </div>
             <div>
-            <div className='flex pt-6 flex-row '>
+            <div className='flex pt-6 justify-between'>
             <h2 className='text-white text-2xl pb-2'>Trending</h2>
             <p className='text-white text-2xl pb-2'>View all </p>
-        
             </div>
                 {/* <Trending/> */}
             </div>

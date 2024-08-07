@@ -1,7 +1,10 @@
 const Trending = ()=>{
     return(
         <div>
-            <h1 className="text-white text-2xl">Trending</h1>
+          <div>
+            
+        <p>move to static from dynamic</p>
+          </div>
           
 
         </div>
